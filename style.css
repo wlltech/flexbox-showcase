@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    margin: 3rem;
+}
+
+h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-top: 3rem;
+}
+
+section{
+    border: 2px solid #0088ff;
+    margin: 1rem 10rem;
+}
+
+.flex__container{
+    display: flex;
+}
+
+.flex__item { 
+    border: 2px solid #333;
+    margin: 1rem;
+}
+
+.flexitem--one {
+    background-color: #ffcc00;
+    width: 5rem;
+    height: 8rem;
+}
+
+.flexitem--two {
+    background-color: #00ffae;
+    width: 6rem;
+    height: 5rem;
+}
+
+.flexitem--three {
+    background-color: #0088ff;
+    width: 5rem;
+    height: 7rem;
+}
+
+.flexitem--four {
+    background-color: #ff00bf;
+    width: 2rem;
+    height: 5rem;
+}
+
+.flex__container-justify-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex__container-justify-flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex__container-justify-flex-start {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flex__container-justify-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex__container-justify-space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex__container-justify-space-evenly {
+    display: flex;
+    justify-content: space-evenly;
+}
